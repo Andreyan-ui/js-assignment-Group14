@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Checkout</h1>
+
+    <form id="checkout-form" onsubmit="event.preventDefault(); validateForm();">
+        <input type="text" id="name" placeholder="Full Name"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <input type="text" id="phone" placeholder="Phone Number"><br><br>
+        <input type="text" id="address" placeholder="Delivery Address"><br><br>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <br>
+    <a href="index.html">Back to Home</a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
