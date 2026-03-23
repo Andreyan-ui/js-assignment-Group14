@@ -7,6 +7,7 @@ const products = [
   { id: 5, name: "Book", price: 20, category: "Books", Image: "images/book.jpeg" },
   { id: 6, name: "Headphones", price: 60, category: "Electronics", Image: "images/headphones.jpeg" }
 ];
+
 //adding the cart variable
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
