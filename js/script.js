@@ -13,7 +13,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 function displayProducts(productList) {
   const container = document.getElementById("products");
 
-  // SAFETY CHECK (VERY IMPORTANT)
+  
   if (!container) return;
 
   container.innerHTML = "";
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function displayCart() {
   const container = document.getElementById("cart-items");
 
-  // Prevent errors on other pages
+  
   if (!container) return;
 
   container.innerHTML = "";
@@ -100,7 +100,7 @@ function displayCart() {
     container.appendChild(div);
   });
 
-  // Update total
+  
   const totalElement = document.getElementById("total");
   if (totalElement) {
     totalElement.innerText = total;
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function searchProduct() {
   const input = document.getElementById("search");
 
-  // Safety check
+  
   if (!input) return;
 
   const value = input.value.toLowerCase();
@@ -171,7 +171,7 @@ function filterCategory(category) {
   }
 }
 
-// validation function
+
 
 function validateForm() {
   try {
