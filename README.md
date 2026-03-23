@@ -22,3 +22,4 @@ The system allows users to:
 - Remove items
 - View total cost
 - Checkout with validation
+- Discover products for final purchase and post sale support.
